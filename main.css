@@ -1,66 +1,65 @@
-*{
-    background-color: rgb(255 , 240 , 245);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    list-style: none;
-    text-decoration: none;
+* {
+  background-color: rgb(255, 240, 245);
+  text-decoration: none;
+  list-style: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-a{
-    color: #202020;
+h1.title {
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+header ul li {
+  margin: 1em;
+}
+header ul li a {
+  color: #202020;
 }
 
-ul.menu{
-    margin-right: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.cat-all {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.cat-all .cat {
+  width: 30%;
+  height: auto;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cat-all .cat .section-title {
+  text-align: center;
+  background-color: #f0f0f0;
 }
 
-li.header-menu a{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+.cat h3 {
+  background-color: #fff;
 }
 
-header h1{
-    font-family: 'Tangerine', cursive;
-    font-size: 6em;
+.cat-img {
+  width: 74%;
+  height: auto;
 }
-.section-title{
-    text-align: center;
-    background-color: #fff;
-}
-.cat-all{
-    margin-top: 5em;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
-.cat{
-    width: 30%;
-    height: auto;
-    border-radius: 1em;
-    background-color: #fff;
-    box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.cat h3{
-    background-color: #fff;
-}
-.cat-img{
-    width: 74%;
-    height: auto;
-}
-.cat p{
-    background-color: #fff;
-}
+
+.cat p {
+  background-color: #fff;
+}/*# sourceMappingURL=main.css.map */
