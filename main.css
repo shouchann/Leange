@@ -150,6 +150,7 @@
     bottom: 0;
     opacity: 0;
     background-color: transparent;
+    margin: 0 2em 1em 0;
   }
   #home-btn.btn {
     width: 10%;
@@ -159,6 +160,7 @@
     bottom: 0;
     animation-duration: 0.5s;
     animation-name: btn;
+    margin: 0 2em 1em 0;
   }
   @keyframes btn {
     0% {
