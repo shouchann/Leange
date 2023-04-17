@@ -24,10 +24,9 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-    top: -10vh;
+    top: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.8);
-    transition: all 0.3s ease 0s;
   }
   header ul li {
     margin: 1em;
@@ -38,12 +37,24 @@
     color: #202020;
     opacity: 1;
   }
-  #menu.fixed {
+  #menu.scroll {
     position: fixed;
     z-index: 999;
-    top: -3vh;
+    top: -2vh;
     right: 0;
-    transition: all 0.3s ease 0s;
+    animation: hd-fixed;
+    animation-duration: 0.3s;
+  }
+  @keyframes hd-fixed {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .cat-all {
     margin-top: 5em;
