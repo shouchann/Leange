@@ -18,14 +18,32 @@
     flex-direction: column;
   }
   header ul {
+    position: relative;
+    width: 100vw;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
+    justify-content: center;
+    top: -10vh;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease 0s;
   }
   header ul li {
     margin: 1em;
+    background-color: transparent;
   }
   header ul li a {
+    background-color: transparent;
     color: #202020;
+    opacity: 1;
+  }
+  #menu.fixed {
+    position: fixed;
+    z-index: 999;
+    top: -3vh;
+    right: 0;
+    transition: all 0.3s ease 0s;
   }
   .cat-all {
     margin-top: 5em;
@@ -62,6 +80,15 @@
   }
   .cat p {
     background-color: #fff;
+  }
+  .home {
+    position: absolute;
+    padding-top: 10vh;
+  }
+  .home img {
+    position: fixed;
+    width: 15%;
+    height: auto;
   }
   footer {
     text-align: center;
