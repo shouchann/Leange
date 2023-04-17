@@ -5,7 +5,9 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 @media screen and (min-width: 960px) {
-
+.home-btn{
+    display: none;
+}
 h1.title{
     font-family: 'Tangerine', cursive;
     font-size: 100px;
@@ -25,7 +27,7 @@ header{
             justify-content: center;
             top: 0;
             right: 0;
-            background-color: rgba(#fff,0.8);
+
                 li{
                     margin: 1em;
                     background-color: transparent;
@@ -38,6 +40,7 @@ header{
     }
 }
 #menu.scroll{
+    background-color: rgba(#fff,0.8);
     position: fixed;
     z-index: 999;
     top: -2vh;
@@ -143,6 +146,44 @@ footer{
 }
 
 @media screen and (max-width: 959px) {
+    .home-btn{
+        z-index: 999;
+        right: 0;
+        position: absolute;
+        width: 20%;
+        bottom: 0;
+        opacity: 0;
+        background-color: transparent;
+    }
+    #home-btn.btn{
+        width: 10%;
+        opacity: 1;
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        animation-duration: 0.5s;
+        animation-name: btn;
+    }
+    @keyframes btn {
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0.2;
+        }
+        50%{
+            opacity: 0.4;
+        }
+        75%{
+            opacity: 0.6;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .menu{
+        display: none;
+    }
     h1.title{
         font-family: 'Tangerine', cursive;
         font-size: 100px;

@@ -16,3 +16,16 @@
       }
     });
   });
+
+  $(function () {
+    var $header = $("#home-btn");
+    var scrollSize = 500; //超えると表示
+    $(window).on("load scroll", function () {
+      var value = $(this).scrollTop();
+      if (value > scrollSize) {
+        $header.addClass("btn");
+      } else {
+        $header.removeClass("btn");
+      }
+    });
+  });
