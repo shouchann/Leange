@@ -59,88 +59,181 @@
       opacity: 1;
     }
   }
-  .cat-all {
-    margin-top: 5em;
+  .news {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
-  }
-  .cat-all .cat {
-    width: 40%;
+    width: 50%;
     height: auto;
     border-radius: 1em;
     background-color: #fff;
     box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2em;
-  }
-  .cat-all .cat .section-title {
-    text-align: center;
-  }
-  .cat h2 {
-    background-color: #fff;
-  }
-  .cat h3 {
-    background-color: #fff;
-  }
-  .cat-img {
-    width: 74%;
-    height: auto;
-  }
-  .cat p {
-    background-color: #fff;
-  }
-  .home {
-    position: absolute;
-    padding-top: 10vh;
-  }
-  .home img {
-    position: fixed;
-    width: 15%;
-    height: auto;
-  }
-  footer {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  footer ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-  }
-  footer ul a {
-    color: #202020;
-  }
-  .sns {
-    width: 50%;
-  }
-  .sns ul {
     text-align: center;
+  }
+  .news h1 {
+    background-color: #fff;
+  }
+  .news .news-list {
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
     padding: 0;
-    margin: 0;
+    text-align: center;
+    font-size: 1vw;
   }
-  .sns ul li {
-    width: 25%;
+  .news .news-list dl {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 0.8em;
+    border-bottom: 2px solid #c8c9cc;
   }
-  .instagram img {
+  .news .news-list dt {
+    border-left: 3px solid rgb(255, 240, 245);
+    padding-left: 1em;
     width: 30%;
+    float: left;
   }
-  .Twitter img {
-    width: 30%;
+  .news .news-list dt::after {
+    clear: both;
+    content: "";
+  }
+  .news .news-list dd {
+    text-align: left;
+  }
+  .news .news-list dt, .news .news-list time, .news .news-list dd {
+    text-align: left;
+    background-color: transparent;
   }
 }
+.cat-all {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cat-all .cat {
+  width: 40%;
+  height: auto;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.cat-all .cat .section-title {
+  text-align: center;
+}
+
+.cat h2 {
+  background-color: #fff;
+}
+
+.cat h3 {
+  background-color: #fff;
+}
+
+.cat-img {
+  width: 74%;
+  height: auto;
+  border-radius: 1em;
+}
+
+.cat p {
+  background-color: #fff;
+}
+
+.home {
+  position: absolute;
+  padding-top: 10vh;
+}
+.home img {
+  position: fixed;
+  width: 15%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul a {
+  color: #202020;
+}
+
+.check-list {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.check-list h2, .check-list h3, .check-list ul, .check-list li, .check-list p {
+  background-color: #fff;
+}
+.check-list .tour {
+  width: 70%;
+  height: auto;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
+}
+.check-list .buy {
+  margin-top: 3em;
+  width: 70%;
+  height: auto;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
+}
+
+.sns {
+  width: 50%;
+}
+
+.sns ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.sns ul li {
+  width: 25%;
+}
+
+.instagram img {
+  width: 30%;
+}
+
+.Twitter img {
+  width: 30%;
+}
+
 @media screen and (max-width: 959px) {
   .home-btn {
     z-index: 999;
@@ -236,6 +329,7 @@
   .cat-img {
     width: 74%;
     height: auto;
+    border-radius: 1em;
   }
   .cat p {
     background-color: #fff;

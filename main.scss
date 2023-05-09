@@ -59,6 +59,63 @@ header{
         opacity: 1;
     }
 }
+.news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
+    margin:0 auto;
+    padding: 0;
+    text-align: center;
+    
+        h1{
+            background-color: #fff;
+        }
+        .news-list{
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width: 80%;
+            padding: 0;
+            text-align: center;
+            font-size: 1vw;
+        
+        dl{
+            display: inline-block;
+            width: 100%;
+            background-color: transparent;
+            padding-bottom: 0.8em;
+            border-bottom: 2px solid #c8c9cc;
+            }
+            dt{
+                border-left:3px solid rgb(255,240,245);
+                padding-left: 1em;
+                width: 30%;
+                float: left;
+            }
+            dt::after{
+                clear: both;
+                content: "";
+            }
+            dd{
+                text-align: left;
+            }
+            dt,time,dd{
+                text-align: left;
+                background-color: transparent;
+            }
+            }
+        }
+        }
 .cat-all{
     margin-top: 5em;
     display: flex;
@@ -93,6 +150,7 @@ header{
 .cat-img{
     width: 74%;
     height: auto;
+    border-radius: 1em;
 }
 .cat p{
     background-color: #fff;
@@ -121,6 +179,32 @@ footer{
         }
     }
 }
+.check-list{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    h2,h3,ul,li,p{
+        background-color: #fff;
+    }
+    .tour{
+        width: 70%;
+        height: auto;
+        border-radius: 1em;
+        background-color: #fff;
+        box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
+    }
+    .buy{
+        margin-top: 3em;
+        width: 70%;
+        height: auto;
+        border-radius: 1em;
+        background-color: #fff;
+        box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
+    }
+}
 .sns{
     width: 50%;
 }
@@ -143,7 +227,7 @@ footer{
 .Twitter img{
     width: 30%;
 }
-}
+
 
 @media screen and (max-width: 959px) {
     .home-btn{
@@ -246,6 +330,7 @@ footer{
     .cat-img{
         width: 74%;
         height: auto;
+        border-radius: 1em;
     }
     .cat p{
         background-color: #fff;
@@ -266,6 +351,8 @@ footer{
             }
         }
     }
+
+
     .sns{
         width: 50%;
     }
