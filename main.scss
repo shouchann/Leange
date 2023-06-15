@@ -148,8 +148,16 @@
         margin-right: auto;
         padding-left: 0;
     }
-    .ch-about ul{
-        background-color: transparent;
+    .ch-about{
+        ul{
+            background-color: #fff;
+            h3{
+                background-color: #fff;
+            }
+            p{
+                background-color: #fff;
+            }
+        }
     }
 }
 .cat-all{
@@ -486,6 +494,7 @@
                 width: 80%;
                 text-align: center;
                 margin: 0 auto;
+                font-size: 15px;
             }
         }
         .buy{

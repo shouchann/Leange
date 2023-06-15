@@ -150,7 +150,13 @@
     padding-left: 0;
   }
   .about .ch-about ul {
-    background-color: transparent;
+    background-color: #fff;
+  }
+  .about .ch-about ul h3 {
+    background-color: #fff;
+  }
+  .about .ch-about ul p {
+    background-color: #fff;
   }
   .cat-all {
     margin-top: 5em;
@@ -481,6 +487,7 @@
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    font-size: 15px;
   }
   .check-list .buy {
     font-size: 4.8vw;
