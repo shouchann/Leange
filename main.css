@@ -150,7 +150,7 @@
     padding-left: 0;
   }
   .about .ch-about ul {
-    background-color: #fff;
+    background-color: transparent;
   }
   .cat-all {
     margin-top: 5em;
@@ -441,7 +441,7 @@
     background-color: #fff;
     border: 2px solid #d3d3d3;
   }
-  table.c-ch footer {
+  footer {
     text-align: center;
     display: flex;
     align-items: center;
@@ -449,14 +449,14 @@
     justify-content: center;
     flex-direction: column;
   }
-  table.c-ch footer ul {
+  footer ul {
     margin: 0;
     padding: 0;
   }
-  table.c-ch footer ul a {
+  footer ul a {
     color: #202020;
   }
-  table.c-ch .check-list {
+  .check-list {
     margin-top: 5em;
     display: flex;
     justify-content: space-around;
@@ -464,10 +464,10 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  table.c-ch .check-list h2, table.c-ch .check-list h3, table.c-ch .check-list ul, table.c-ch .check-list li, table.c-ch .check-list p {
+  .check-list h2, .check-list h3, .check-list ul, .check-list li, .check-list p {
     background-color: #fff;
   }
-  table.c-ch .check-list .tour {
+  .check-list .tour {
     font-size: 4.8vw;
     overflow: hidden;
     display: block;
@@ -477,12 +477,12 @@
     background-color: #fff;
     box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
   }
-  table.c-ch .check-list .tour li {
+  .check-list .tour li {
     width: 80%;
     text-align: center;
     margin: 0 auto;
   }
-  table.c-ch .check-list .buy {
+  .check-list .buy {
     font-size: 4.8vw;
     overflow: hidden;
     display: block;
@@ -493,36 +493,37 @@
     background-color: #fff;
     box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
   }
-  table.c-ch .check-list .buy li {
+  .check-list .buy li {
     width: 80%;
     text-align: center;
     margin: 0 auto;
   }
-  table.c-ch .check-list .buy ul, table.c-ch .check-list .tour ul {
+  .check-list .buy ul, .check-list .tour ul {
     display: inline-block;
   }
-  table.c-ch .check-list .tour li, table.c-ch .check-list .buy li {
+  .check-list .tour li, .check-list .buy li {
     text-align: left;
+    font-size: 15px;
   }
-  table.c-ch .sns {
+  .sns {
     width: 50%;
   }
-  table.c-ch .sns ul {
+  .sns ul {
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
   }
-  table.c-ch .sns ul li {
-    width: 25%;
+  .sns ul .instagram img {
+    width: 18%;
+    height: auto;
   }
-  table.c-ch .instagram img {
-    width: 110%;
-  }
-  table.c-ch .Twitter img {
-    width: 110%;
+  .sns ul .Twitter img {
+    width: 22%;
+    height: auto;
   }
 }/*# sourceMappingURL=main.css.map */
