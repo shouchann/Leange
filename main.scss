@@ -59,60 +59,27 @@
             opacity: 1;
         }
     }
-    .news{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 60%;
-        height: auto;
-        border-radius: 1em;
-        background-color: #fff;
-        box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
-        margin:0 auto;
-        padding: 0;
-        text-align: center;
-        h1{
-            background-color: #fff;
-        }
-        .news-list{
-            background-color: transparent;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 0 auto;
-            width: 80%;
-            padding: 0;
-            text-align: center;
-            font-size: 1vw;
-            dl{
-                display: inline-block;
-                width: 100%;
-                background-color: transparent;
-                padding-bottom: 0.8em;
-                border-bottom: 2px solid #c8c9cc;
-                }
-                dt{
-                    border-left:3px solid rgb(255,240,245);
-                    padding-left: 1em;
-                    width: 30%;
-                    float: left;
-                }
-                dt::after{
-                    clear: both;
-                    content: "";
-                }
-                dd{
-                    text-align: left;
-                }
-                dt,time,dd{
-                    text-align: left;
-                    background-color: transparent;
-                }
+.vid-contents{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5em;
+    overflow: hidden;
+    height: auto;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
+    width: 52%;/*背景色を横幅いっぱいに広げる*/
+    text-align: center;
+    margin: auto;
+    padding: 4% 4% 4% 4%;/*ここで動画の周りの余白を調整*/
+    background: #fff;/*余白の背景色*/
+    video.main-vid{
+        width: 100%;
+        max-width: 920px;/*PC版での最大幅*/
     }
 }
+
 .about{
     display: block;
     margin: 0 auto;
