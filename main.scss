@@ -173,6 +173,7 @@
         .section-title{
             text-align: center;
             }
+
         }
     }
     .cat h2{
@@ -181,13 +182,25 @@
     .cat h3{
         background-color: #fff;
     }
-    .cat-img{
+    img.cat-img{
         width: 74%;
         height: auto;
         border-radius: 1em;
+        margin-bottom: 3em;
+        object-fit: cover;
     }
     .cat p{
-        background-color: #fff;
+        background-color: #c8c9cc;
+    }
+    table.c-ch{
+        margin-bottom: 2em;
+        width: 75%;
+        background-color: transparent;
+        border: 2px solid #d3d3d3;
+        tr,th{
+            background-color: #fff;
+            border: 2px solid #d3d3d3;
+        }
     }
     .home{
         position: absolute;
@@ -425,7 +438,15 @@
     }
     .cat p{
         background-color: #fff;
-    }
+    }    table.c-ch{
+        margin-bottom: 2em;
+        width: 75%;
+        background-color: transparent;
+        border: 2px solid #d3d3d3;
+        tr,th{
+            background-color: #fff;
+            border: 2px solid #d3d3d3;
+        }
 
     footer{
         text-align: center;
@@ -513,4 +534,4 @@
     .Twitter img{
         width: 110%;
     }
-}
+    }}

@@ -181,13 +181,26 @@
   .cat h3 {
     background-color: #fff;
   }
-  .cat-img {
+  img.cat-img {
     width: 74%;
     height: auto;
     border-radius: 1em;
+    margin-bottom: 3em;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .cat p {
+    background-color: #c8c9cc;
+  }
+  table.c-ch {
+    margin-bottom: 2em;
+    width: 75%;
+    background-color: transparent;
+    border: 2px solid #d3d3d3;
+  }
+  table.c-ch tr, table.c-ch th {
     background-color: #fff;
+    border: 2px solid #d3d3d3;
   }
   .home {
     position: absolute;
@@ -418,7 +431,17 @@
   .cat p {
     background-color: #fff;
   }
-  footer {
+  table.c-ch {
+    margin-bottom: 2em;
+    width: 75%;
+    background-color: transparent;
+    border: 2px solid #d3d3d3;
+  }
+  table.c-ch tr, table.c-ch th {
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+  }
+  table.c-ch footer {
     text-align: center;
     display: flex;
     align-items: center;
@@ -426,14 +449,14 @@
     justify-content: center;
     flex-direction: column;
   }
-  footer ul {
+  table.c-ch footer ul {
     margin: 0;
     padding: 0;
   }
-  footer ul a {
+  table.c-ch footer ul a {
     color: #202020;
   }
-  .check-list {
+  table.c-ch .check-list {
     margin-top: 5em;
     display: flex;
     justify-content: space-around;
@@ -441,10 +464,10 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .check-list h2, .check-list h3, .check-list ul, .check-list li, .check-list p {
+  table.c-ch .check-list h2, table.c-ch .check-list h3, table.c-ch .check-list ul, table.c-ch .check-list li, table.c-ch .check-list p {
     background-color: #fff;
   }
-  .check-list .tour {
+  table.c-ch .check-list .tour {
     font-size: 4.8vw;
     overflow: hidden;
     display: block;
@@ -454,12 +477,12 @@
     background-color: #fff;
     box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
   }
-  .check-list .tour li {
+  table.c-ch .check-list .tour li {
     width: 80%;
     text-align: center;
     margin: 0 auto;
   }
-  .check-list .buy {
+  table.c-ch .check-list .buy {
     font-size: 4.8vw;
     overflow: hidden;
     display: block;
@@ -470,21 +493,21 @@
     background-color: #fff;
     box-shadow: 5px 5px 20px #c8c9cc, -5px -5px 20px #ffffff;
   }
-  .check-list .buy li {
+  table.c-ch .check-list .buy li {
     width: 80%;
     text-align: center;
     margin: 0 auto;
   }
-  .check-list .buy ul, .check-list .tour ul {
+  table.c-ch .check-list .buy ul, table.c-ch .check-list .tour ul {
     display: inline-block;
   }
-  .check-list .tour li, .check-list .buy li {
+  table.c-ch .check-list .tour li, table.c-ch .check-list .buy li {
     text-align: left;
   }
-  .sns {
+  table.c-ch .sns {
     width: 50%;
   }
-  .sns ul {
+  table.c-ch .sns ul {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -493,13 +516,13 @@
     padding: 0;
     margin: 0;
   }
-  .sns ul li {
+  table.c-ch .sns ul li {
     width: 25%;
   }
-  .instagram img {
+  table.c-ch .instagram img {
     width: 110%;
   }
-  .Twitter img {
+  table.c-ch .Twitter img {
     width: 110%;
   }
 }/*# sourceMappingURL=main.css.map */
