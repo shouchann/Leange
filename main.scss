@@ -11,6 +11,10 @@
     h1.title{
         font-family: 'Tangerine', cursive;
         font-size: 100px;
+        margin-bottom: -1%;
+    }
+    p.ruby{
+        margin-bottom: 6%;
     }
     header{
         display: flex;
@@ -324,6 +328,10 @@
     h1.title{
         font-family: 'Tangerine', cursive;
         font-size: 100px;
+        margin-bottom: -1%;
+    }
+    p.ruby{
+        margin-bottom: 6%;
     }
     header{
         display: flex;
@@ -387,9 +395,16 @@
             margin-right: auto;
             padding-left: 0;
         }
-        .ch-about ul{
-            background-color: #fff;
-            padding: 0;
+        .ch-about{
+            ul{
+                background-color: #fff;
+                h3{
+                    background-color: #fff;
+                }
+                p{
+                    background-color: #fff;
+                }
+            }
         }
     }
     .cat-all{

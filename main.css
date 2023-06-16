@@ -13,6 +13,10 @@
   h1.title {
     font-family: "Tangerine", cursive;
     font-size: 100px;
+    margin-bottom: -1%;
+  }
+  p.ruby {
+    margin-bottom: 6%;
   }
   header {
     display: flex;
@@ -319,6 +323,10 @@
   h1.title {
     font-family: "Tangerine", cursive;
     font-size: 100px;
+    margin-bottom: -1%;
+  }
+  p.ruby {
+    margin-bottom: 6%;
   }
   header {
     display: flex;
@@ -382,7 +390,12 @@
   }
   .about .ch-about ul {
     background-color: #fff;
-    padding: 0;
+  }
+  .about .ch-about ul h3 {
+    background-color: #fff;
+  }
+  .about .ch-about ul p {
+    background-color: #fff;
   }
   .cat-all {
     margin-top: 5em;
