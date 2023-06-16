@@ -298,9 +298,26 @@
             opacity: 1;
         }
     }
-    .news{
-        display: none;
-}
+    .vid-contents{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5em;
+        overflow: hidden;
+        height: auto;
+        border-radius: 1em;
+        background-color: #fff;
+        box-shadow: 5px 5px 20px #c8c9cc,-5px -5px 20px #ffffff;
+        width: 76%;/*背景色を横幅いっぱいに広げる*/
+        text-align: center;
+        margin: auto;
+        padding: 4% 4% 4% 4%;/*ここで動画の周りの余白を調整*/
+        background: #fff;/*余白の背景色*/
+        video.main-vid{
+            width: 100%;
+            max-width: 920px;/*PC版での最大幅*/
+        }
+    }
     .menu{
         display: none;
     }
